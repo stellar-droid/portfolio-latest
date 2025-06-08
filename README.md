@@ -29,7 +29,7 @@
 
 ## Built With
 
-My personal portfolio <a href="https://lokeshwani.netlify.app/" target="_blank">Lokesh Wani Portfolio</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://lokeshwani.netlify.app/" target="_blank">Lokesh Wani </a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
