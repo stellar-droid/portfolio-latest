@@ -3,8 +3,8 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiPostman,
   SiSlack,
-  SiVercel,
-  SiMacos,
+  // SiVercel,
+  // SiMacos,
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { SiNetlify } from "react-icons/si";
