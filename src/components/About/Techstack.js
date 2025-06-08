@@ -5,19 +5,19 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
-  DiPython,
+  // DiMongodb,
+  // DiPython,
   DiGit,
-  DiJava,
+  // DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
+  // SiRedis,
+  // SiFirebase,
   SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  // SiSolidity,
+  // SiPostgresql,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+// import { TbBrandGolang } from "react-icons/tb";
 import { FaFigma } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
