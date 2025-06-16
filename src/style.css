@@ -15,7 +15,7 @@ html {
 }
 
 .purple {
-  color: var(--imp-text-color) !important;
+  color: #EA386F !important;
 }
 
 button:focus {
@@ -185,20 +185,26 @@ button:focus {
   transition: all 0.3s ease-out 0s;
   position: relative;
   z-index: 1;
+  font-size: 18px;
 }
 
 .navbar-nav .nav-item a::after {
   content: "";
   position: relative;
   display: block;
-  height: 5px;
+  height: 3px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background:linear-gradient(90deg, #5E36DC, #EA386F);
   bottom: 1px;
   left: 0;
   z-index: -1;
   transition: all 0.3s ease-out 0s;
+  /* background: linear-gradient(90deg, #5E36DC, #EA386F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent; */
 }
 
 .navbar-nav .nav-item a:hover::after {
@@ -331,9 +337,10 @@ button:focus {
 }
 
 .home-about-body {
-  padding-top: 50px;
-  font-size: 1.2em !important;
-  text-align: left;
+    padding-top: 20px;
+    font-size: 1.2em !important;
+    text-align: left;
+    line-height: 28px;
 }
 
 .home-about-social {
@@ -383,9 +390,9 @@ button:focus {
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #fff;
+  box-shadow: linear-gradient(90deg, #EA386F, #5E36DC);
+  text-shadow: linear-gradient(90deg, #EA386F, #5E36DC);
 }
 
 .social-icons {
@@ -395,7 +402,8 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  background: linear-gradient(90deg, #5E36DC, #EA386F) !important;
+  color: #fff;
 }
 
 /* --------- */
@@ -416,6 +424,14 @@ button:focus {
   text-align: center !important;
 }
 
+
+.grtxt {
+    background: linear-gradient(90deg, #5E36DC, #EA386F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
 @media (max-width: 767px) {
   .footer-copywright {
     text-align: center !important;
@@ -518,8 +534,9 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
+  background: linear-gradient(90deg, #5E36DC, #EA386F) !important;
   border-color: #623686 !important;
+  border-radius: 4px !important;
 }
 
 .btn-primary:hover {
@@ -592,6 +609,8 @@ button:focus {
   text-align: left !important;
   padding-left: 1px !important;
 }
+
+
 
 @media (max-width: 767px) {
   .about-img {
