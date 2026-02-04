@@ -16,8 +16,8 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            <h1 style={{ fontSize: "2.6em",textAlign:"left" }}>
+              LET ME <span style={{fontWeight:"900"}} className="purple grtxt "> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
@@ -25,7 +25,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> React.JS, Javascript, HTML5, UI Libraries[MUI, Tailwand, Bootstrap]</b>
+                <b className="purple "> React.JS, Javascript, HTML5, UI Libraries[MUI, Tailwand, Bootstrap]</b>
               </i>
               <br />
               <br />
