@@ -24,7 +24,7 @@ const onDocumentLoadSuccess = ({ numPages }) => {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://stellar-droid.github.io/MYIMAGE/LOKESHWANI_RESUME_L.pdf"
+            href="https://stellar-droid.github.io/MYIMAGE/LOKESHWANI_RESUME_EXP_S .pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
