@@ -24,7 +24,7 @@ const onDocumentLoadSuccess = ({ numPages }) => {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://stellar-droid.github.io/MYIMAGE/LOKESHWANI_RESUME_EXP_S .pdf"
+            href="https://stellar-droid.github.io/MYIMAGE/LOKESHWANI_RESUME_EXP_S.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -46,7 +46,7 @@ const onDocumentLoadSuccess = ({ numPages }) => {
           }}
         >
           <Document
-            file="https://stellar-droid.github.io/MYIMAGE/LOKESHWANI_RESUME_EXP_S .pdf"
+            file="https://stellar-droid.github.io/MYIMAGE/LOKESHWANI_RESUME_EXP_S.pdf"
             onLoadSuccess={onDocumentLoadSuccess}
           >
             {Array.from(new Array(numPages), (_, index) => (
