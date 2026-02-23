@@ -39,17 +39,16 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Whenever possible, I channel my passion into building scalable products using <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  modern JavaScript libraries and frameworks
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; such as
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> Next.js</b>
               </i>
             </p>
           </Col>

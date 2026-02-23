@@ -82,6 +82,20 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/certifications"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Certifications
+              </Nav.Link>
+            </Nav.Item>
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -92,7 +106,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-           
+
 
             <Nav.Item className="fork-btn">
               <Button
