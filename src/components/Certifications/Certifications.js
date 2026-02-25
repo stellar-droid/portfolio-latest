@@ -63,6 +63,17 @@ const certifications = [
     description:
       " JavaScript fundamentals, DOM manipulation, event handling, and creating interactive web pages.",
   },
+  {
+    id: 5,
+    title: "Introduction to Model Context Protocol",
+    issuer: "Anthropic Education",
+    date: "Feb 2026",
+    credentialId: "crdpr86p73ma",
+    category: "AI",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    verifyUrl: "https://verify.skilljar.com/c/crdpr86p73ma",
+    description: "Model Context Protocol (MCP) fundamentals, including architecture, use cases, and implementation strategies for AI applications.Making an MCP client and MCP server.",
+  },
   // {
   //   id: 6,
   //   title: "TypeScript Essential Training",
