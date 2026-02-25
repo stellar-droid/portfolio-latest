@@ -114,8 +114,9 @@ const Certifications = () => {
             My <span className="cert-gradient-text">Certifications</span>
           </h1>
           <p className="cert-subtitle">
-            Professional certifications and courses that shape my journey as a
-            developer.
+            {/* Professional certifications and courses that shape my journey as a
+            developer. */}
+            Professional certifications and continuous learning milestones supporting my evolution toward architecting scalable and impactful technology solutions.
           </p>
 
           {/* Stats */}
