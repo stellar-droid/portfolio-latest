@@ -64,7 +64,7 @@ const certifications = [
       " JavaScript fundamentals, DOM manipulation, event handling, and creating interactive web pages.",
   },
   {
-    id: 5,
+    id: 6,
     title: "Introduction to Model Context Protocol",
     issuer: "Anthropic Education",
     date: "Feb 2026",
