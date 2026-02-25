@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-
+import mcp from "../../Assets/Projects/mcp.png";
 const certifications = [
   {
     id: 1,
@@ -70,7 +70,7 @@ const certifications = [
     date: "Feb 2026",
     credentialId: "crdpr86p73ma",
     category: "AI",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    logo: mcp,
     verifyUrl: "https://verify.skilljar.com/c/crdpr86p73ma",
     description: "Model Context Protocol (MCP) fundamentals, including architecture, use cases, and implementation strategies for AI applications.Making an MCP client and MCP server.",
   },
